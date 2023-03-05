@@ -30,6 +30,10 @@ will fail at least.
 If your tests do not have type annotations, this plugin does nothing. Use mypy
 to enforce that everything has type annotations.
 
+**Consider vendoring this package by copying its [5 lines of
+sourcecode](./pytest_fixture_typecheck.py) in your `conftest.py`. The
+package's metadata is larger than 5 lines.**
+
 License
 =======
 
